@@ -22,8 +22,7 @@ In order to implement this design from a hardware perspective, I connected the E
 
 For the birthday card design, I used a small box for the bottom of the card to enclose the hardware, and I wrapped the box in pink paper. I cut holes in the paper for the joystick and the button to stick out in order for the user to interact with them, and I also cut a whole in the side of the box for the USB-C cable in order to connect the ESP32 to my laptop. In order to keep everything in place inside the card enclosure, I used packaging tape and cardboard in order to hold the parts in place and life the button and joystick up high enough to stick out of the top of the box. 
 
-![IMG_8029](https://user-images.githubusercontent.com/80801327/229381373-4fca57e5-7e4f-47c5-be48-5eff924734d2.jpeg)
-
+![DEB991C5-7E4A-403C-B233-A39D7E5447E9](https://user-images.githubusercontent.com/80801327/229399670-b34f15ad-fcb4-4689-ba1c-7594e9aa9e00.JPG)
 
 From a software perspective, I used the Arduino IDE to upload software to the ESP32 to connect it to the joystick and the button. I sent values for the joystick's x-value, y-value, and whether or not the button had been pushed through a serial connection to my laptop. I then used the Processing IDE to write a program that reads the values from the serial connection. The program then plays back a happy birthday soundtrack with the x-value corresponding to the volume or the gain of the song, the y-value corresponding to the pan of the song over the speakers, and the button push having the capabilities to play or pause the song. 
 
